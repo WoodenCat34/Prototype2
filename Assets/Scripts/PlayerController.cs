@@ -33,5 +33,8 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRangeLeft, transform.position.y, transform.position.z);
 
         }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Instantiate(pizzjectile, transform.position,pizzjectile.transform.rotation);
+        }
     }
 }
