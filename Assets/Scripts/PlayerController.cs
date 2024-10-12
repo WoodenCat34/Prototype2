@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 15.0f;
     public float xRangeRight = 21.35f;
     public float xRangeLeft = -20.63f;
+    public GameObject pizzjectile;
 
     // Start is called before the first frame update
     void Start()
