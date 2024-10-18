@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2469684d375194a458f8d57e36b036fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBoundry: 17.5
+  topBoundry: 25
   bottomBoundry: -5
 --- !u!1 &2971059287091878913
 GameObject:
