@@ -6098,6 +6098,7 @@ GameObject:
   - component: {fileID: 1080094278411255227}
   - component: {fileID: 2770835243156300913}
   - component: {fileID: 8885407373466778522}
+  - component: {fileID: 6114388519851174615}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -6191,3 +6192,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.25
+--- !u!114 &6114388519851174615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158822091288690673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2469684d375194a458f8d57e36b036fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBoundry: 17.5
+  bottomBoundry: -5
