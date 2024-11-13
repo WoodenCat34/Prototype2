@@ -22,13 +22,21 @@ public class SpwanManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            
+            SpawnRandomAnimals();
 
-            int animalIndex = Random.Range(0, animalPrefabs.Length);
 
-            Vector3 spawnPosition = new Vector3(Random.Range(spawnXLeft, spawnXRight), 0, spawnZ);
 
-            Instantiate(animalPrefabs[animalIndex], spawnPosition, animalPrefabs[animalIndex].transform.rotation);
         }
+
+      
+    }
+    void SpawnRandomAnimals()
+
+    {
+        int animalIndex = Random.Range(0, animalPrefabs.Length);
+
+        Vector3 spawnPosition = new Vector3(Random.Range(spawnXLeft, spawnXRight), 0, spawnZ);
+
+        Instantiate(animalPrefabs[animalIndex], spawnPosition, animalPrefabs[animalIndex].transform.rotation);
     }
 }
