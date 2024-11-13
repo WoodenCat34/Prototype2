@@ -9,9 +9,14 @@ public class SpwanManager : MonoBehaviour
     public float spawnXLeft = -21.75f;
     private float spawnZ = 20f;
 
+    public float startDelay = 3.0f;
+    public float spawnInterval = 1.5f;
+
     // Start is called before the first frame update
     void Start()
     {
+        InvokeRepeating("SpawnRandomAnimals", startDelay, spawnInterval); 
+
         Debug.Log(animalPrefabs[0]);
     }
 
